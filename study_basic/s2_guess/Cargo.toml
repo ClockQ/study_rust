@@ -1,0 +1,10 @@
+[package]
+name = "s2_guess"        # 项目名
+version = "0.1.0"       # 项目版本
+edition = "2021"        # 使用的 Rust 版本
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]          # 项目依赖列表，在 Rust 里面，代码的包称作 crate 
+rand = "0.8.0"          # 0.8.0 等同于 ^0.8.0，因为 0 的特殊性，等于 0.8.* 而不是 0.*.* 
+
