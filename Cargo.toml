@@ -12,4 +12,8 @@ rand = "0.8.0"          # 0.8.0 等同于 ^0.8.0，因为 0 的特殊性，等�
 members = [
     "study_basic/*",
     "study_basic/*/crates/*",
+
+    "cargo_examples/*",
+
+    "tools/*",
 ]
